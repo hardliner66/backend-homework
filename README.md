@@ -109,12 +109,12 @@ For example, to change the question from before to ask about sunrise, we would s
 
 Your solution should meet all these requirements.
 
-- [ ] Endpoint that returns a list of all questions
-- [ ] Endpoint that allows to add a new question
-- [ ] Endpoint that allows to update an existing question
-- [ ] Question data is stored in a SQLite database with a **normalised** schema
-- [ ] The order of questions and options is stable, not random
-- [ ] The `PORT` environment variable is used as the port number for the server, defaulting to 3000
+- [x] Endpoint that returns a list of all questions
+- [x] Endpoint that allows to add a new question
+- [x] Endpoint that allows to update an existing question
+- [x] Question data is stored in a SQLite database with a **normalised** schema
+- [x] The order of questions and options is stable, not random
+- [x] The `PORT` environment variable is used as the port number for the server, defaulting to 3000
 
 ## Bonus requirements
 
